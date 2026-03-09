@@ -206,13 +206,13 @@ const About = () => {
             transition={{ delay: 0.2 }}
             className="text-lg text-coffee-light leading-relaxed mb-10"
           >
-            Bloody Sweet Cafe is a cozy destination for coffee lovers and dessert enthusiasts in Vinobanagar, Shimoga.
-            We serve freshly brewed coffee, delicious milkshakes, desserts, and snacks in a stylish and relaxing atmosphere.
+            Bloody Sweet Cafe is a cozy destination for Ramen lovers and dessert enthusiasts in Vinobanagar, Shimoga.
+            We serve Spicy fried Chicken, delicious milkshakes, desserts, and snacks in a stylish and relaxing atmosphere.
             Our mission is to provide a premium experience where every sip and every bite feels like a luxury.
           </motion.p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { label: 'Fresh Brew', icon: <Coffee /> },
+              { label: 'Ramen Bowl', icon: <Coffee /> },
               { label: 'Tasty Snacks', icon: <Utensils /> },
               { label: 'Cozy Vibe', icon: <MapPin /> },
               { label: 'Open Late', icon: <Clock /> },
@@ -284,8 +284,8 @@ const Menu = () => {
       title: 'Our Special Dishes',
       items: [
         { name: 'Spicy Ramen', price: '180', description: 'Authentic spicy broth with perfectly cooked noodles and fresh toppings.', image: '/raman_bowl1.jpeg' },
-        { name: 'Korean Ramen', price: '200', description: 'Rich, comforting Korean-style ramen with a fiery kick.', image: '/raman_bowl2.jpeg' },
-        { name: 'Spicy Chicken Wings', price: '220', description: 'Deep-fried chicken wings tossed in our special bloody hot sauce.', image: 'https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=400' },
+        { name: 'momo shots', price: '200', description: 'Rich, comforting Korean-style ramen with a fiery kick.', image: '/momo.jpeg' },
+        { name: 'Fried Chicken', price: '220', description: 'Deep-fried chicken wings tossed in our special bloody hot sauce.', image: '/infused1.jpeg' },
       ]
     },
     {
@@ -294,7 +294,7 @@ const Menu = () => {
         { name: 'Schezwan Momos', price: '140', description: 'Spicy and tangy momos tossed in authentic Schezwan sauce.', image: 'https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&q=80&w=400' },
         { name: 'Paneer Momos', price: '150', description: 'Soft dumplings filled with spiced paneer and aromatic herbs.', image: 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&q=80&w=400' },
         { name: 'Chicken Momos', price: '160', description: 'Juicy minced chicken stuffed perfectly in delicate dumplings.', image: 'https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&q=80&w=400' },
-        { name: 'Momos Shots', price: '130', description: 'Bite-sized crispy fried momos served with a fiery red chutney.', image: 'https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&q=80&w=400' },
+        { name: 'Momos Shots', price: '130', description: 'Bite-sized crispy fried momos served with a fiery red chutney.', image: '/momo.jpeg' },
       ]
     },
     {
@@ -367,9 +367,9 @@ const Offers = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const deals = [
-    { title: 'Monday Magic', image: '/monday_offer.jpeg' },
-    { title: 'Wednesday Wow', image: '/wednesday_offer.jpeg' },
-    { title: 'Saturday Surprise', image: '/saturday_offer.jpeg' },
+    { title: 'Mystery Meal Monday', image: '/monday_offer.jpeg' },
+    { title: 'Humpday Special', image: '/wednesday_offer.jpeg' },
+    { title: 'Spin to Win Saturday', image: '/saturday_offer.jpeg' },
   ];
 
   return (
@@ -490,11 +490,11 @@ const Offers = () => {
 const Gallery = () => {
   const images = [
     '/gal1.jpeg',
-    '/gal2.jpeg',
-    '/bloodysweet.jpeg',
-    '/choco.jpg',
-    '/oreo.jpg',
-    '/straw.jpg',
+    '/momo.jpeg',
+    '/gal4.jpeg',
+    '/gal5.jpeg',
+    '/gal6.jpeg',
+    '/infused1.jpeg',
   ];
 
   return (
@@ -596,13 +596,6 @@ const CustomerVideos = () => {
       src: "/review2.mp4",
       isVideo: true,
       title: "Cafe Experience"
-    },
-    {
-      id: 3,
-      src: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600",
-      isVideo: false,
-      title: "Waffle Review",
-      duration: "0:58"
     }
   ];
 
