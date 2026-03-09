@@ -736,7 +736,7 @@ const Contact = () => {
                   <p className="text-coffee-light mb-4">@bsc_07</p>
                   <div className="flex gap-4">
                     <a
-                      href="https://instagram.com/bsc_07"
+                      href="https://instagram.com/bloody_sweet_cafe_07"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-2 bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white rounded-full font-bold text-sm uppercase tracking-widest flex items-center gap-2"
