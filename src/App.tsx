@@ -748,7 +748,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-coffee-cream mb-2">Social</h4>
-                  <p className="text-coffee-light mb-4">@bsc_07</p>
+                  <p className="text-coffee-light mb-4">@bloody_sweet_cafe_07</p>
                   <div className="flex gap-4">
                     <a
                       href="https://instagram.com/bloody_sweet_cafe_07"
@@ -810,7 +810,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center md:text-right">
-          <p className="text-coffee-light text-sm mb-2">© 2024 Bloody Sweet Cafe. All rights reserved.</p>
+          <p className="text-coffee-light text-sm mb-2">© 2026 Bloody Sweet Cafe. All rights reserved.</p>
           <p className="text-coffee-light/50 text-xs uppercase tracking-widest">Designed by Siddu💙</p>
         </div>
       </div>
