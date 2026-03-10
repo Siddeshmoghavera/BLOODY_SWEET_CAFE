@@ -789,7 +789,7 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-black text-gold mb-4">BLOODY SWEET</h2>
           <p className="text-coffee-light max-w-xs">
-            Premium coffee and desserts in the heart of Shimoga.
+            Authentic ramen bowls and flavorful fried infused chicken served in the heart of Shimoga.
           </p>
         </div>
 
