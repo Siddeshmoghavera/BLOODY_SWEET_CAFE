@@ -283,15 +283,15 @@ const Menu = () => {
     {
       title: 'Our Special Dishes',
       items: [
-        { name: 'Spicy Ramen', price: '180', description: 'Authentic spicy broth with perfectly cooked noodles and fresh toppings.', image: '/raman_bowl1.jpeg' },
-        { name: 'momo shots', price: '200', description: 'Rich, comforting Korean-style ramen with a fiery kick.', image: '/momo.jpeg' },
+        { name: 'Ramen Bowl', price: '180', description: 'Authentic spicy broth with perfectly cooked noodles and fresh toppings.', image: '/raman_bowl1.jpeg' },
+        { name: 'Rice Bowl', price: '200', description: 'Rich, comforting Korean-style ramen with a fiery kick.', image: '/gal6.jpeg' },
         { name: 'Fried Chicken', price: '220', description: 'Deep-fried chicken wings tossed in our special bloody hot sauce.', image: '/infused1.jpeg' },
+        { name: 'Burger', price: '220', description: 'Juicy patty with lettuce, tomato, and our signature sauce.', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=400'},
       ]
     },
     {
       title: 'Momos',
       items: [
-        { name: 'Schezwan Momos', price: '140', description: 'Spicy and tangy momos tossed in authentic Schezwan sauce.', image: 'https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&q=80&w=400' },
         { name: 'Paneer Momos', price: '150', description: 'Soft dumplings filled with spiced paneer and aromatic herbs.', image: 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&q=80&w=400' },
         { name: 'Chicken Momos', price: '160', description: 'Juicy minced chicken stuffed perfectly in delicate dumplings.', image: 'https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&q=80&w=400' },
         { name: 'Momos Shots', price: '130', description: 'Bite-sized crispy fried momos served with a fiery red chutney.', image: '/momo.jpeg' },
@@ -369,7 +369,7 @@ const Offers = () => {
   const deals = [
     { title: 'Mystery Meal Monday', image: '/monday_offer.jpeg' },
     { title: 'Humpday Special', image: '/wednesday_offer.jpeg' },
-    { title: 'Spin to Win Saturday', image: '/saturday_offer.jpeg' },
+    { title: 'Spin and Win Saturday', image: '/saturday_offer.jpeg' },
   ];
 
   return (
