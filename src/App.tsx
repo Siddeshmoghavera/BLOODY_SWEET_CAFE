@@ -143,6 +143,14 @@ const Hero = () => {
         >
           Where Crispy Meets Comfort
         </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="text-xl md:text-2xl font-light tracking-[0.3em] uppercase mb-12 text-coffee-light"
+        >
+          #Fuel For The Soul
+        </motion.p>
 
         <div className="flex flex-col md:flex-row gap-6 justify-center">
           <motion.a
@@ -442,7 +450,7 @@ const Offers = () => {
                 Exclusive Discount
               </div>
               <h3 className="text-4xl md:text-5xl font-black text-white mb-2 italic">STUDENT SPECIAL</h3>
-              <p className="text-xl text-coffee-cream">Show your valid Student ID & grab</p>
+              <p className="text-xl text-coffee-cream">Show your valid Student ID & grab the offers</p>
             </div>
 
             <div className="mx-8 md:w-px md:h-24 bg-gold/30 hidden md:block" />
@@ -555,8 +563,8 @@ const Gallery = () => {
 const Reviews = () => {
   const reviews = [
     { name: "Mani", text: "Best cafe in Vinobanagar! Amazing Crispy Chicken and cozy vibe.", rating: 5 },
-    { name: "Priya K.", text: "The waffles are to die for. Love the dark luxury aesthetic here.", rating: 5 },
-    { name: "Anish Gowda", text: "Perfect spot for a late-night coffee. The staff is very friendly.", rating: 4 },
+    { name: "Priya K.", text: "The ramen bowl is to die for—rich flavors and the dark luxury aesthetic here makes the experience even better.", rating: 5 },
+    { name: "Anish Gowda", text: "The fried infused chicken is incredible 🔥 and the staff is very friendly.", rating: 5 },
   ];
 
   return (
