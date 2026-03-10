@@ -307,11 +307,25 @@ const Menu = () => {
       ]
     },
     {
-      title: 'Desserts',
+      title: 'Mojito',
       items: [
-        { name: 'Brownies', price: '140', description: 'Warm, fudgy chocolate brownie served with vanilla ice cream.', image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&q=80&w=400' },
-        { name: 'Waffles', price: '180', description: 'Crispy golden waffles topped with maple syrup and berries.', image: 'https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&q=80&w=400' },
-        { name: 'Ice Cream', price: '100', description: 'Three scoops of your favorite premium ice cream flavors.', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=400' },
+        {
+          name: 'Bubble Gum Mojito',
+          price: '129',
+          description: 'Refreshing bubble gum flavored mojito with mint leaves, soda, and crushed ice.',
+          image: '/mojito2.jpg'
+        },
+        {
+          name: 'Blue Curacao Mojito',
+          price: '129',
+          description: 'Cool blue curacao mojito with mint, lime, soda, and a vibrant tropical flavor.',
+          image: '/mojito1.jpg'
+        },
+        {
+          name: 'Mint Mojito',
+          description: 'Classic refreshing mint mojito with lime juice, soda, and fresh mint leaves.',
+          image: '/mojito.jpg'
+        }
       ]
     },
     {
